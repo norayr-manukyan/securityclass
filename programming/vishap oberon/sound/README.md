@@ -7,7 +7,7 @@ Compilation steps
 Install compiler from here  https://github.com/vishaps/voc
 
 Run
-``bash
+```bash
 voc -M beep.Mod
 rm *.h *.c *.o *.sym
 ```
