@@ -6,14 +6,17 @@ Compilation steps
 
 Install compiler from here  https://github.com/vishaps/voc
 
-Run 
+Run
+``bash
 voc -M beep.Mod
 rm *.h *.c *.o *.sym
+```
 
 or just type
+```bash
 make all
 make clean
-
+```
 in sound folder
 
-After running compiled application, if you will have errors like ``bash oggenc not found ```, just install vorbis-tools in your system.
+After running compiled application, if you will have errors like ```bash oggenc not found ```, just install vorbis-tools in your system.
