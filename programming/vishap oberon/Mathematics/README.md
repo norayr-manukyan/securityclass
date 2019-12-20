@@ -9,7 +9,7 @@ Install compiler from here  https://github.com/vishaps/voc
 
 Run
 ```bash
-voc -s Mathematics.Mod test.Mod -M
+voc -s Mathematics.Mod Test.Mod -M
 rm *.h *.c *.o *.sym
 ```
 
