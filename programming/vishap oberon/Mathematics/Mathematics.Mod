@@ -14,6 +14,7 @@ PROCEDURE Pow*(VAR a, b : INTEGER) : INTEGER;
 VAR
   result, i : INTEGER;
 BEGIN
+  IF b = 0 THEN RETURN 1; END;
   result := 1;
   FOR i := 1 TO b DO
     result := result * a;
