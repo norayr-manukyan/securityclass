@@ -39,7 +39,7 @@ UNTIL s2[k] = 0X;
  
 newstring[i] := 0X;
  
-Out.String(newstring);Out.Int(Length(newstring),1);Out.Ln;
+Out.String(newstring);Out.Ln;
 END Append;
  
 
