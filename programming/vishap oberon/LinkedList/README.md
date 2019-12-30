@@ -1,4 +1,4 @@
-# securityclass/programming/vishap oberon/LinkedLisr
+# securityclass/programming/vishap oberon/LinkedList
 Here is a LinkedList module implementation for Vishap Oberon.
 
 Now you can linked list data type in Vishap Oberon.
