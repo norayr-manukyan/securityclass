@@ -95,18 +95,15 @@ END Append;
  
 (*----------------------------------------------*)
  
-PROCEDURE AppendList*(VAR l0, l1: list) : list;
-  VAR i,j: INTEGER; last1, tmp1: node; newlist : list;
+PROCEDURE AppendList*(VAR l0, l1: list);
+  VAR i,j: INTEGER;  tmp1: node;
   BEGIN
-    last1 := l1.last;
     tmp1 := l1.first;
-    newlist := l0;
-    FOR i:=1 TO l1.count-1 DO
-      Append(newlist, tmp1);
+    FOR i:=1 TO l1.count DO
+      Append(l0, tmp1);
       tmp1 := Next(tmp1);
     END;
-    INC(newlist.count);
-    RETURN newlist;
+   
 END AppendList;
  
 (*-----------------------------------------------*)

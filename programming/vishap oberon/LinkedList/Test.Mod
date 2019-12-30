@@ -77,13 +77,14 @@ BEGIN
   List.Append(b, node9);
   node7 := b.last;
   Out.String(node7.str);Out.Int(b.count,0);Out.Ln;
- 
+ node7:= List.Get(b,4);
+Out.String("zzz");Out.String(node7.str);Out.Ln;
   (*AppendList test*)
-  c := List.AppendList(a,b);
-  Out.Int(a.count,0);Out.Ln;
+  List.AppendList(a,b); node7 := List.Get(a,5);
+  Out.Int(a.count,0);Out.String(node7.str);Out.Ln;
  
   (*Empty test*)
-  List.Empty(c); node7 := List.Get(c,4);
-  Out.Int(c.count,0); Out.String(node7.str);Out.Ln;
+  List.Empty(b); node7 := List.Get(b,4);
+  Out.Int(b.count,0); Out.String(node7.str);Out.Ln;
  
 END Test.
