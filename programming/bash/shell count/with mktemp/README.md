@@ -1,0 +1,11 @@
+# securityclass/programming/bash/shell count/with mktemp
+This script displays count of users whose default shell is specified as argument
+
+Interpretation steps
+
+Run
+```bash
+bash count.sh bash
+```
+
+Result displays in Standard Output.
