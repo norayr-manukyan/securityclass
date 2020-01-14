@@ -5,7 +5,7 @@ Interpretation steps
 
 Run
 ```bash
-bash count.sh
+bash count.sh bash
 ```
 
 Result displays in Standard Output.
